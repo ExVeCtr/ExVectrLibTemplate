@@ -1,23 +1,23 @@
-#include "VectrLibTemplate/your_header_files_here.hpp" //Should have the exact same name as the header file.
+#include "ExVectrLibTemplate/your_header_files_here.hpp" //Should have the exact same name as the header file.
 
 
 /**
  * The source files define functions declared inside the header files.
  * Its recommended to add comments explaining each implementation, but much more important is that the implementation should explain itsself!
  * 
- * You can use functions and classes from other Vectr libraries by adding them to the CMakeLists.txt file and then include them here as you
+ * You can use functions and classes from other ExVectr libraries by adding them to the CMakeLists.txt file and then include them here as you
  * would if you were using them for a project.
  * 
 */
 
 #include "cstringt.h"
 
-#include "VectrHAL/time_hal.hpp" //Included in the VectrHAL library.
-#include "VectrCore/time_definitions.hpp" //Included in the VectrCore library.
+#include "ExVectrHAL/time_hal.hpp" //Included in the ExVectrHAL library.
+#include "ExVectrCore/time_definitions.hpp" //Included in the ExVectrCore library.
 
 
 /**
- * Simply takes the time from VectrHAL and converts it to seconds and returns that.
+ * Simply takes the time from ExVectrHAL and converts it to seconds and returns that.
 */
 float VCTR::yourSpecialFunctionDefined() {
     return (float)VCTR::internalTime()/SECONDS;

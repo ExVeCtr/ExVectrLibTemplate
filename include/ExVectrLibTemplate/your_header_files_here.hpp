@@ -1,4 +1,4 @@
-#ifndef PATHTOHEADERFILE_HEADERNAME_H //File path and name in all upper case. For this file: VECTRLIBTEMPLATE_YOURHEADERFILESHERE_H
+#ifndef PATHTOHEADERFILE_HEADERNAME_H //File path and name in all upper case. For this file: EXVECTRLIBTEMPLATE_YOURHEADERFILESHERE_H
 #define PATHTOHEADERFILE_HEADERNAME_H
 
 /**
@@ -12,7 +12,7 @@
  * Header files only do little to no implementation/definition. They only declare a class's structure or function and important includes 
  * needed to use said class/function.
  * 
- * Everything is done inside the VCTR namespace to seperate Vectr from other libraries used.
+ * Everything is done inside the VCTR namespace to seperate ExVectr from other libraries used.
  * 
  * Implementation is done in the source files located inside src folder.
  * 
