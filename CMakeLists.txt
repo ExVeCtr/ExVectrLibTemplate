@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(ExVectr VERSION 0.1.0) #Change ExVectr to the library name. Please use ExVectr[Name here] format.
+project(ExVectrLibTemplate VERSION 0.1.0) #Change ExVectrLibTemplate to the library name. Please use ExVectr[Name here] format.
 
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
 add_library(${PROJECT_NAME} ${SRC_FILES})
